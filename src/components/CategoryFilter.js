@@ -1,6 +1,8 @@
 import React from "react";
 
-function CategoryFilter() {
+function CategoryFilter(props) {
+  // console.log(Tasks)
+  // console.log(props)
   return (
     <div className="categories">
       <h5>Category filters</h5>

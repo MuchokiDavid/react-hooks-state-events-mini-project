@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react";
 
-function NewTaskForm() {
+function NewTaskForm(props) {
+  
   return (
     <form className="new-task-form">
       <label>
